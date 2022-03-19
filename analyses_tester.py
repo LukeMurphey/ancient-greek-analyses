@@ -1,4 +1,4 @@
-from analyses_parser import GreekAnalysesParser
+from greek_analyses_parser import GreekAnalysesParser
 import re
 
 class GreekAnalysesTester(GreekAnalysesParser):
