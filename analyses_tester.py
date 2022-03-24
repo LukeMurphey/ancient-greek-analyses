@@ -13,7 +13,7 @@ class GreekAnalysesTester(GreekAnalysesParser):
         return meaning.strip() == ""
 
     def has_strange_meaning(self, form, lemma_form, meaning, details, attrs, definition):
-        return re.search('\[|\]', meaning) != None
+        return re.search('\[|,\]', meaning) != None
 
     def process_word_description(self, form, lemma_form, meaning, details, attrs, definition):
 
